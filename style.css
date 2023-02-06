@@ -6,19 +6,23 @@ body {
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 2.5em;
     letter-spacing: .6em;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 
 h2 {
     font-size: 1.5em;
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
 }
 
 h3 {
-    font-size: 1em;
+    font-size: 1.1em;
+    padding-bottom: 1em;
+}
+
+ul {
     padding-bottom: 1em;
 }
 
@@ -28,7 +32,8 @@ header {
 }
 
 section {
-    margin: auto 1em 4em 2em;
+    margin: auto 2em 2em 2em;
+    padding-bottom: 0.1em;
 }
 
 i {
@@ -53,16 +58,12 @@ h1, h2, h3 {
 main { 
     display: grid;
     grid-template-columns: 40% 60%;
-    margin-top: 3em;
+    margin-top: 1em;
 }
 
 header {
     text-align: center;
     margin: auto 2em;
-}
-
-section {
-    margin: auto 1em 4em 2em;
 }
 
 i {
@@ -92,3 +93,7 @@ h1, h2, h3 {
 /* Make sure that padding behaves as expected */
 * {box-sizing:border-box}
 
+html,body{
+    height:297mm;
+    width:210mm;
+}
