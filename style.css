@@ -23,7 +23,7 @@ h3 {
 }
 
 ul {
-    padding-bottom: 1em;
+    padding-bottom: 0.2em;
 }
 
 header {
@@ -32,7 +32,7 @@ header {
 }
 
 section {
-    margin: auto 2em 2em 2em;
+    margin: auto 2em 4em 2em;
     padding-bottom: 0.1em;
 }
 
@@ -57,7 +57,7 @@ h1, h2, h3 {
 
 main { 
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 30% 70%;
     margin-top: 1em;
 }
 
@@ -93,7 +93,3 @@ h1, h2, h3 {
 /* Make sure that padding behaves as expected */
 * {box-sizing:border-box}
 
-html,body{
-    height:297mm;
-    width:210mm;
-}
